@@ -48,6 +48,7 @@ path = 'data.txt'
 file_data = open(path, 'r')
 for line in file_data:
     list_key.append(int(line))
+file_data.close()
 print('позиции элементов из файла: ', list_key)
 
 
